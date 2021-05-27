@@ -1,0 +1,28 @@
+{
+  "name": "covidbot",
+  "version": "1.0.0",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^3.5.0",
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^9.0.0",
+    "express": "^4.17.1",
+    "glob": "^7.1.7",
+    "googleapis": "^73.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.12.7",
+    "mysql2": "^2.2.5",
+    "twilio": "^3.62.0",
+    "twit": "^2.2.11",
+    "uuid": "^8.3.2"
+  }
+}
